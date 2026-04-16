@@ -215,8 +215,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src=".https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 <script src="js/lib/jquery.easy-rollover.js"></script>
 <script src="js/common.js"></script>
-<script src="js/home_2.js"></script>
-<script src="js/snow.html"></script>
+$(window).on('load', function() {
+  $('.js-loading').fadeOut();
+});
+<!-- XÓA luôn nếu không cần -->
+<!-- <script src="js/snow.html"></script> -->
 <script src="js/lib/modaal.min.js"></script>
 <!-- ▲scripts -->
 
